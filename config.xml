@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	xmlns:cdv   = "http://cordova.apache.org/ns/1.0"
+        id          = "free.flappysmasher"
+        version     = "0.11.22" >
+
+
+    <name>Flappy Smasher</name>
+    <description>
+        Take revenge of all those birds!
+    </description>
+    <author email="email@example.com" href="http://example.com">
+        Author
+    </author>
+    <preference name="permissions" value="none"/>
+
+    <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen"  value="all" />
+    <preference name="stay-in-webview"  value="false" />
+    
+    <content src="index.html" />
+    <icon src="icon-256.png" />
+    <access origin="*" />
+</widget>
+
