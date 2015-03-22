@@ -1,19 +1,26 @@
 ﻿{
-	"name": "Flappy Smasher",
-	"start_url": "/index.html",
-	"display": "fullscreen",
-	"orientation": "any",
-	"icons": [{
-		"src": "icon-16.png",
-		"sizes": "16x16",
-	}, {
-		"src": "icon-32.png",
-		"sizes": "32x32",
-	}, {
-		"src": "icon-128.png",
-		"sizes": "128x128",
-	}, {
-		"src": "icon-256.png",
-		"sizes": "256x256",
-	}]
+
+  "name": "Flappy Smasher",
+  "description": "Take revenge on all those birds!",
+  "version": "0.11.22",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "mautematico",
+    "url": "https://blog.mautematico.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "fullscreen": "true",
+  "orientation": "portrait-primary",
+  "icons": {
+    "16": "icon-512.png",
+    "32": "icon-512.png",
+    "64": "icon-512.png",
+    "128": "icon-512.png",
+    "256": "icon-512.png",
+    "512": "icon-512.png"
+  }
 }
+
+
